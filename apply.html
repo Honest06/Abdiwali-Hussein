@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply for Financing – MMIC Midnimo Microfinance</title>
+  <meta name="description" content="Apply online for Sharia-compliant microfinance from MMIC. Women, youth, farmers, and SMEs in Somalia can apply in minutes." />
+  <meta property="og:title" content="Apply for Financing – MMIC" />
+  <meta property="og:url" content="https://www.mmic.so/apply.html" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="navbar-logo"><div class="logo-mark"><span>M</span></div><div class="logo-text"><span class="logo-name">MMIC</span><span class="logo-sub">Midnimo Microfinance</span></div></a>
+    <nav class="navbar-nav" id="navMenu">
+      <a href="index.html" class="nav-link">Home</a><a href="about.html" class="nav-link">About</a><a href="services.html" class="nav-link">Services</a><a href="islamic-finance.html" class="nav-link">Islamic Finance</a><a href="impact.html" class="nav-link">Impact</a><a href="partners.html" class="nav-link">Partners</a><a href="news.html" class="nav-link">News</a><a href="careers.html" class="nav-link">Careers</a><a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <div class="navbar-actions">
+      <a href="apply.html" class="btn btn-primary btn-sm active">Apply Now <i class="fas fa-arrow-right"></i></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero apply-hero">
+  <div class="hero-bg-pattern"></div><div class="hero-overlay"></div>
+  <div class="container page-hero-content animate-fadeInUp">
+    <div class="breadcrumb"><a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Apply for Financing</span></div>
+    <h1>Apply for Financing</h1>
+    <p>Start your journey toward growth and financial independence. Our process is simple, fair, and 100% Sharia-compliant.</p>
+    <div class="apply-badges">
+      <span><i class="fas fa-shield-halved"></i> Sharia-Compliant</span>
+      <span><i class="fas fa-clock"></i> Decision in 5 Days</span>
+      <span><i class="fas fa-ban"></i> No Interest (Riba)</span>
+      <span><i class="fas fa-check-circle"></i> Transparent Terms</span>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" style="background:var(--grey-light);">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <div class="section-tag">Process</div>
+      <h2 class="section-title">How It Works</h2>
+    </div>
+    <div class="how-it-works animate-on-scroll">
+      <div class="hiw-step"><div class="hiw-num">1</div><div class="hiw-icon"><i class="fas fa-file-pen"></i></div><h3>Apply Online</h3><p>Complete this form with your personal, business, and financing details.</p></div>
+      <div class="hiw-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="hiw-step"><div class="hiw-num">2</div><div class="hiw-icon"><i class="fas fa-user-tie"></i></div><h3>Loan Officer Contacts You</h3><p>Within 2 business days, a loan officer will call to discuss your application.</p></div>
+      <div class="hiw-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="hiw-step"><div class="hiw-num">3</div><div class="hiw-icon"><i class="fas fa-magnifying-glass-chart"></i></div><h3>Assessment Visit</h3><p>Our team visits your business or home for a brief assessment and verification.</p></div>
+      <div class="hiw-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="hiw-step"><div class="hiw-num">4</div><div class="hiw-icon"><i class="fas fa-handshake"></i></div><h3>Agreement &amp; Disbursement</h3><p>Sign the Sharia-compliant financing agreement and receive your funds.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MULTI-STEP FORM -->
+<section class="section">
+  <div class="container">
+    <div class="apply-form-wrap animate-on-scroll">
+
+      <!-- PROGRESS BAR -->
+      <div class="apply-progress">
+        <div class="ap-steps">
+          <div class="ap-step active" data-step="1"><div class="ap-step-num">1</div><span>Personal Info</span></div>
+          <div class="ap-step-line"></div>
+          <div class="ap-step" data-step="2"><div class="ap-step-num">2</div><span>Business</span></div>
+          <div class="ap-step-line"></div>
+          <div class="ap-step" data-step="3"><div class="ap-step-num">3</div><span>Finance Request</span></div>
+          <div class="ap-step-line"></div>
+          <div class="ap-step" data-step="4"><div class="ap-step-num">4</div><span>Review &amp; Submit</span></div>
+        </div>
+        <div class="ap-progress-bar"><div class="ap-progress-fill" id="apProgressFill" style="width:25%"></div></div>
+      </div>
+
+      <form id="applyForm" class="premium-form apply-multistep">
+
+        <!-- STEP 1: Personal Info -->
+        <div class="apply-step" id="step1">
+          <h2 class="step-title"><i class="fas fa-user"></i> Step 1: Personal Information</h2>
+          <div class="form-row">
+            <div class="form-group"><label for="aFullName">Full Name *</label><input type="text" id="aFullName" name="fullName" required placeholder="As on your National ID" /></div>
+            <div class="form-group"><label for="aGender">Gender *</label>
+              <select id="aGender" name="gender" required><option value="">Select...</option><option>Female</option><option>Male</option></select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="aAge">Age *</label><input type="number" id="aAge" name="age" min="18" max="70" required placeholder="Your age" /></div>
+            <div class="form-group"><label for="aID">National ID Number</label><input type="text" id="aID" name="idNumber" placeholder="National ID or Passport number" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="aPhone">Phone Number *</label><input type="tel" id="aPhone" name="phone" required placeholder="+252 XXX XXX XXX" /></div>
+            <div class="form-group"><label for="aEmail">Email Address</label><input type="email" id="aEmail" name="email" placeholder="your@email.com (optional)" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="aCity">City / Town *</label><input type="text" id="aCity" name="city" required placeholder="e.g. Mogadishu, Baidoa, Hudur" /></div>
+            <div class="form-group"><label for="aDistrict">District / Neighborhood *</label><input type="text" id="aDistrict" name="district" required placeholder="Your district or neighbourhood" /></div>
+          </div>
+          <div class="form-group"><label for="aBranch">Nearest MMIC Branch *</label>
+            <select id="aBranch" name="branch" required><option value="">Select branch...</option><option>Mogadishu (Head Office)</option><option>Baidoa</option><option>Hudur</option></select>
+          </div>
+          <div class="step-nav"><button type="button" class="btn btn-primary" onclick="nextStep(1)">Next: Business Details <i class="fas fa-arrow-right"></i></button></div>
+        </div>
+
+        <!-- STEP 2: Business Details -->
+        <div class="apply-step hidden" id="step2">
+          <h2 class="step-title"><i class="fas fa-store"></i> Step 2: Business Details</h2>
+          <div class="form-row">
+            <div class="form-group"><label for="aBizName">Business Name</label><input type="text" id="aBizName" name="bizName" placeholder="Name of your business (if any)" /></div>
+            <div class="form-group"><label for="aBizType">Business Type *</label>
+              <select id="aBizType" name="bizType" required>
+                <option value="">Select...</option>
+                <option>Retail / Shop</option>
+                <option>Wholesale / Trade</option>
+                <option>Food &amp; Beverage</option>
+                <option>Tailoring / Fashion</option>
+                <option>Transport / Taxi / Boda</option>
+                <option>Agriculture / Farming</option>
+                <option>Livestock</option>
+                <option>Fisheries</option>
+                <option>Construction / Contracting</option>
+                <option>Technology / Phone repair</option>
+                <option>Service Business</option>
+                <option>No existing business (new start)</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="aYearsOp">Years in Operation *</label>
+              <select id="aYearsOp" name="yearsOp" required>
+                <option value="">Select...</option>
+                <option>New business (0 years)</option>
+                <option>Less than 1 year</option>
+                <option>1–2 years</option>
+                <option>3–5 years</option>
+                <option>5+ years</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="aMonthlyRevenue">Estimated Monthly Revenue (USD) *</label>
+              <select id="aMonthlyRevenue" name="monthlyRevenue" required>
+                <option value="">Select range...</option>
+                <option>Less than $100</option>
+                <option>$100 – $300</option>
+                <option>$300 – $600</option>
+                <option>$600 – $1,000</option>
+                <option>$1,000 – $3,000</option>
+                <option>More than $3,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"><label for="aBizDesc">Describe Your Business *</label><textarea id="aBizDesc" name="bizDesc" rows="4" required placeholder="What does your business do? Where do you operate? Who are your customers?"></textarea></div>
+          <div class="step-nav">
+            <button type="button" class="btn btn-outline" onclick="prevStep(2)"><i class="fas fa-arrow-left"></i> Back</button>
+            <button type="button" class="btn btn-primary" onclick="nextStep(2)">Next: Finance Request <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Finance Request -->
+        <div class="apply-step hidden" id="step3">
+          <h2 class="step-title"><i class="fas fa-dollar-sign"></i> Step 3: Financing Request</h2>
+          <div class="form-row">
+            <div class="form-group"><label for="aProduct">Financing Product *</label>
+              <select id="aProduct" name="product" required>
+                <option value="">Select product...</option>
+                <option>Marwo Kaabe – Women Financing</option>
+                <option>FursadMaal – Youth Work Asset Finance</option>
+                <option>E-Fursad – Technology &amp; Home Assets</option>
+                <option>SME Finance</option>
+                <option>Agriculture Finance</option>
+                <option>Livestock Finance</option>
+                <option>Fisheries Finance</option>
+                <option>VSLA/SHG Linkage Finance</option>
+                <option>Not sure – need advice</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="aAmount">Financing Amount Requested (USD) *</label>
+              <select id="aAmount" name="amount" required>
+                <option value="">Select range...</option>
+                <option>$100 – $300</option>
+                <option>$300 – $500</option>
+                <option>$500 – $1,000</option>
+                <option>$1,000 – $3,000</option>
+                <option>$3,000 – $5,000</option>
+                <option>$5,000 – $10,000</option>
+                <option>More than $10,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"><label for="aPurpose">Purpose of Financing *</label><textarea id="aPurpose" name="purpose" rows="4" required placeholder="How will you use the financing? What assets or goods will you buy? How will it generate income?"></textarea></div>
+          <div class="form-row">
+            <div class="form-group"><label for="aRepayment">Preferred Repayment Period *</label>
+              <select id="aRepayment" name="repayment" required>
+                <option value="">Select...</option>
+                <option>3 months</option>
+                <option>6 months</option>
+                <option>12 months</option>
+                <option>18 months</option>
+                <option>24 months</option>
+                <option>36 months</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="aGuarantor">Guarantor / Collateral Available?</label>
+              <select id="aGuarantor" name="guarantor">
+                <option value="">Select...</option>
+                <option>Yes – Group guarantee (VSLA/friends)</option>
+                <option>Yes – Individual guarantor</option>
+                <option>Yes – Asset collateral</option>
+                <option>No collateral (first-time applicant)</option>
+              </select>
+            </div>
+          </div>
+          <div class="step-nav">
+            <button type="button" class="btn btn-outline" onclick="prevStep(3)"><i class="fas fa-arrow-left"></i> Back</button>
+            <button type="button" class="btn btn-primary" onclick="nextStep(3)">Review Application <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- STEP 4: Review & Submit -->
+        <div class="apply-step hidden" id="step4">
+          <h2 class="step-title"><i class="fas fa-check-circle"></i> Step 4: Review &amp; Submit</h2>
+          <div class="review-box" id="reviewBox">
+            <!-- JS populates this -->
+          </div>
+          <div class="apply-declaration">
+            <label class="form-check">
+              <input type="checkbox" id="aDeclaration" required />
+              <span>I declare that the information provided in this application is accurate and complete. I understand that providing false information may result in rejection of my application. I consent to MMIC contacting me to discuss my financing request.</span>
+            </label>
+          </div>
+          <div class="step-nav">
+            <button type="button" class="btn btn-outline" onclick="prevStep(4)"><i class="fas fa-arrow-left"></i> Back</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="submitApplyForm()"><i class="fas fa-paper-plane"></i> Submit Application</button>
+          </div>
+          <p style="margin-top:1.5rem;text-align:center;color:var(--text-light);font-size:0.875rem;">Or send your application via WhatsApp: <a href="https://wa.me/252XXXXXXXXX?text=Hello%20MMIC%2C%20I%20would%20like%20to%20apply%20for%20financing." target="_blank" rel="noopener" style="color:var(--green);"><i class="fab fa-whatsapp"></i> Chat with us</a></p>
+        </div>
+
+        <!-- SUCCESS -->
+        <div class="apply-step hidden" id="step5">
+          <div class="apply-success">
+            <div class="apply-success-icon"><i class="fas fa-check-circle"></i></div>
+            <h2>Application Submitted!</h2>
+            <p>Thank you for applying to MMIC. Your application has been received and will be reviewed by our team.</p>
+            <div class="apply-next-steps">
+              <h3>What Happens Next?</h3>
+              <ol>
+                <li><strong>Within 2 business days:</strong> A loan officer will contact you by phone to confirm receipt and discuss your application.</li>
+                <li><strong>Within 5 business days:</strong> We will schedule a brief assessment visit or meeting.</li>
+                <li><strong>Financing Decision:</strong> You will receive a decision and, if approved, sign the Sharia-compliant financing agreement.</li>
+              </ol>
+            </div>
+            <div class="apply-success-actions">
+              <a href="index.html" class="btn btn-primary">Back to Home</a>
+              <a href="https://wa.me/252XXXXXXXXX?text=Hello%20MMIC%2C%20I%20just%20submitted%20a%20financing%20application." class="btn btn-outline" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Follow Up on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ELIGIBILITY -->
+<section class="section" style="background:var(--grey-light);">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <div class="section-tag">Eligibility</div>
+      <h2 class="section-title">Who Can Apply?</h2>
+    </div>
+    <div class="eligibility-grid animate-on-scroll">
+      <div class="elig-card green"><i class="fas fa-check"></i><p>Somalia resident, 18 years or older</p></div>
+      <div class="elig-card green"><i class="fas fa-check"></i><p>Women entrepreneurs (all ages, all sectors)</p></div>
+      <div class="elig-card green"><i class="fas fa-check"></i><p>Youth seeking income-generating assets</p></div>
+      <div class="elig-card green"><i class="fas fa-check"></i><p>Smallholder farmers and livestock keepers</p></div>
+      <div class="elig-card green"><i class="fas fa-check"></i><p>Registered SMEs and micro-businesses</p></div>
+      <div class="elig-card green"><i class="fas fa-check"></i><p>VSLA/SHG group members</p></div>
+      <div class="elig-card red"><i class="fas fa-times"></i><p>Not available for haram businesses (alcohol, gambling, etc.)</p></div>
+      <div class="elig-card red"><i class="fas fa-times"></i><p>Not available outside Somalia at this time</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top"><div class="container footer-grid">
+    <div class="footer-brand"><div class="footer-logo"><div class="logo-mark"><span>M</span></div><div class="logo-text"><span class="logo-name">MMIC</span><span class="logo-sub">Midnimo Microfinance</span></div></div><p>Empowering communities through ethical and inclusive Sharia-compliant financial services across Somalia since 2020.</p><div class="footer-social"><a href="https://facebook.com/mmic.so" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="https://linkedin.com/company/mmic-somalia" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a><a href="https://wa.me/252XXXXXXXXX" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></div></div>
+    <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About MMIC</a></li><li><a href="services.html">Services</a></li><li><a href="islamic-finance.html">Islamic Finance</a></li><li><a href="impact.html">Our Impact</a></li><li><a href="careers.html">Careers</a></li></ul></div>
+    <div class="footer-col"><h4>Our Services</h4><ul><li><a href="services.html#marwo-kaabe">Marwo Kaabe</a></li><li><a href="services.html#fursadmaal">FursadMaal</a></li><li><a href="services.html#sme">SME Finance</a></li><li><a href="services.html#agriculture">Agriculture Finance</a></li><li><a href="services.html#fisheries">Fisheries Finance</a></li><li><a href="apply.html">Apply for Finance</a></li></ul></div>
+    <div class="footer-col"><h4>Contact Us</h4><ul class="footer-contact"><li><i class="fas fa-envelope"></i><a href="mailto:info@mmic.so">info@mmic.so</a></li><li><i class="fas fa-phone"></i>+252 XXX XXX XXX</li><li><i class="fas fa-map-marker-alt"></i>Hodan District, Mogadishu</li></ul></div>
+  </div></div>
+  <div class="footer-bottom"><div class="container footer-bottom-inner"><p>© 2024 MMIC. All rights reserved. | Regulated by the Central Bank of Somalia</p></div></div>
+</footer>
+
+<a href="https://wa.me/252XXXXXXXXX?text=Hello%20MMIC%2C%20I%20would%20like%20to%20apply%20for%20financing." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
